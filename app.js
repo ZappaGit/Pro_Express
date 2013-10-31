@@ -10,6 +10,7 @@ var app = module.exports = express.createServer();
 
 //Routes
 require('./routes/index')(app);
+require('./routes/users')(app);
 
 // Configuration
 app.configure(function(){
